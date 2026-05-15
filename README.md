@@ -20,12 +20,18 @@ https://anky06-ky.github.io/Law/
 
 ## Deploy GitHub Pages
 
-Repo này có workflow `.github/workflows/pages.yml`.
-
 Vào GitHub repo:
 
 1. `Settings`
 2. `Pages`
 3. `Build and deployment`
-4. `Source`: chọn `GitHub Actions`
-5. Chạy lại workflow nếu cần trong tab `Actions`
+4. `Source`: chọn `Deploy from a branch`
+5. `Branch`: chọn `gh-pages`
+6. Folder: chọn `/root`
+7. Bấm `Save`
+
+Sau đó chờ khoảng 1-3 phút rồi mở:
+
+```text
+https://anky06-ky.github.io/Law/
+```

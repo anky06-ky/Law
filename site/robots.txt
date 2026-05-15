@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anky06-ky.github.io/Law/sitemap.xml
